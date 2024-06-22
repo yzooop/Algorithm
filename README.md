@@ -40,7 +40,7 @@ coding test algorithm
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ5597.py">코드</a></td>
     </tr>
     <tr>
-        <td >2024-06-15</td>    
+        <td >2024-06-23</td>    
         <td>1913</td>
         <td><a href="https://www.acmicpc.net/problem/1913">링크</a></td>
         <td>달팽이</td>
