@@ -17,7 +17,7 @@ coding test algorithm
   </thead>
   <tbody>
     <tr>
-        <td rowspan="3">1</td>
+        <td rowspan="2">1</td>
         <td >2024-06-15</td>
         <td>1001</td>
         <td><a href="https://www.acmicpc.net/problem/1001">링크</a></td>
@@ -38,6 +38,13 @@ coding test algorithm
         <td><a href="https://www.acmicpc.net/problem/1001">링크</a></td>
         <td>과제 안내신분..?</td>
         <td><a href="https://github.com/username/repository/blob/main/1001.java">코드 링크</a></td>
+    </tr>
+    <tr>
+        <td >2024-06-15</td>    
+        <td>1913</td>
+        <td><a href="https://www.acmicpc.net/problem/1002">링크</a></td>
+        <td>달팽이</td>
+        <td><a href="https://github.com/username/repository/blob/main/1002.java">코드 링크</a></td>
     </tr>
     <tr>
         <td >2024-06-15</td>    
