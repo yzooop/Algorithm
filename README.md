@@ -32,7 +32,7 @@ coding test algorithm
         <td><a href="https://github.com/username/repository/blob/main/1002.java">코드 링크</a></td>
     </tr>
     <tr>
-        <td rowspan="3">12</td>
+        <td rowspan="3">2</td>
         <td >2024-06-22</td>
         <td>5597</td>
         <td><a href="https://www.acmicpc.net/problem/5597">링크</a></td>
@@ -44,14 +44,14 @@ coding test algorithm
         <td>1913</td>
         <td><a href="https://www.acmicpc.net/problem/1913">링크</a></td>
         <td>달팽이</td>
-        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ5597.py">코드 링크</a></td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1913.py">코드 링크</a></td>
     </tr>
     <tr>
         <td >2024-06-15</td>    
         <td>10828</td>
         <td><a href="https://www.acmicpc.net/problem/10828">링크</a></td>
         <td>스택</td>
-        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ5597.py">코드 링크</a></td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ10828.py">코드 링크</a></td>
     </tr>
   </tbody>
 </table>
