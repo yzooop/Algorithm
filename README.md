@@ -47,7 +47,7 @@ coding test algorithm
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1913.py">코드</a></td>
     </tr>
     <tr>
-        <td >2024-06-15</td>    
+        <td >2024-06-23</td>    
         <td>10828</td>
         <td><a href="https://www.acmicpc.net/problem/10828">링크</a></td>
         <td>스택</td>
