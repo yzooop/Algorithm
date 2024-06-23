@@ -55,3 +55,40 @@ coding test algorithm
     </tr>
   </tbody>
 </table>
+
+
+### 따로 공부
+<table>
+  <thead>
+    <tr>
+        <th>번호</th>
+        <th>날짜</th>
+        <th>문제 번호</th>
+        <th>백준 링크</th>
+        <th>제목</th>
+        <th>비고</th>
+        <th>코드</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>1</td>
+        <td>2024-06-23</td>
+        <td>1260</td>
+        <td><a href="https://www.acmicpc.net/problem/1260">링크</a></td>
+        <td>두 수를 입력받아 빼는 문제</td>
+        <td>DFS, BFS</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1260.py">코드</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2024-06-23</td>
+        <td>1260</td>
+        <td><a href="https://www.acmicpc.net/problem/1260">링크</a></td>
+        <td>두 수를 입력받아 빼는 문제</td>
+        <td>DFS, BFS</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1260.py">코드</a></td>
+    </tr>
+    
+  </tbody>
+</table>
