@@ -76,18 +76,18 @@ coding test algorithm
         <td>2024-06-23</td>
         <td>1260</td>
         <td><a href="https://www.acmicpc.net/problem/1260">링크</a></td>
-        <td>두 수를 입력받아 빼는 문제</td>
+        <td>DFS와 BFS</td>
         <td>DFS, BFS</td>
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1260.py">코드</a></td>
     </tr>
     <tr>
         <td>2</td>
         <td>2024-06-23</td>
-        <td>1260</td>
-        <td><a href="https://www.acmicpc.net/problem/1260">링크</a></td>
-        <td>두 수를 입력받아 빼는 문제</td>
-        <td>DFS, BFS</td>
-        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1260.py">코드</a></td>
+        <td>2644</td>
+        <td><a href="https://www.acmicpc.net/problem/2644">링크</a></td>
+        <td>촌수계산</td>
+        <td>BFS</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ2644.py">코드</a></td>
     </tr>
     
   </tbody>
