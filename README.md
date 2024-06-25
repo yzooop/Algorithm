@@ -89,6 +89,15 @@ coding test algorithm
         <td>BFS</td>
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ2644.py">코드</a></td>
     </tr>
+    <tr>
+        <td>3</td>
+        <td>2024-06-25</td>
+        <td>1952</td>
+        <td><a href="https://www.acmicpc.net/problem/1952">링크</a></td>
+        <td>달팽이2</td>
+        <td>구현</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1952.py">코드</a></td>
+    </tr>
     
   </tbody>
 </table>
