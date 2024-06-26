@@ -17,22 +17,7 @@ coding test algorithm
   </thead>
   <tbody>
     <tr>
-        <td rowspan="2">1</td>
-        <td >2024-06-15</td>
-        <td>1001</td>
-        <td><a href="https://www.acmicpc.net/problem/1001">링크</a></td>
-        <td>두 수를 입력받아 빼는 문제</td>
-        <td><a href="https://github.com/username/repository/blob/main/1001.java">코드</a></td>
-    </tr>
-    <tr>
-        <td >2024-06-15</td>    
-        <td>1002</td>
-        <td><a href="https://www.acmicpc.net/problem/1002">링크</a></td>
-        <td>두 원의 교차점을 구하는 문제</td>
-        <td><a href="https://github.com/username/repository/blob/main/1002.java">코드</a></td>
-    </tr>
-    <tr>
-        <td rowspan="3">2</td>
+        <td rowspan="3">1</td>
         <td >2024-06-22</td>
         <td>5597</td>
         <td><a href="https://www.acmicpc.net/problem/5597">링크</a></td>
@@ -52,6 +37,28 @@ coding test algorithm
         <td><a href="https://www.acmicpc.net/problem/10828">링크</a></td>
         <td>스택</td>
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ10828.py">코드</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">2</td>
+        <td >2024-06-22</td>
+        <td>17135</td>
+        <td><a href="https://www.acmicpc.net/problem/17135">링크</a></td>
+        <td>과제 안내신분..?</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ17135.py">코드</a></td>
+    </tr>
+    <tr>
+        <td >2024-06-23</td>    
+        <td>21314</td>
+        <td><a href="https://www.acmicpc.net/problem/21314">링크</a></td>
+        <td>달팽이</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ21314.py">코드</a></td>
+    </tr>
+    <tr>
+        <td >2024-06-23</td>    
+        <td>16928</td>
+        <td><a href="https://www.acmicpc.net/problem/16928">링크</a></td>
+        <td>스택</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ16928.py">코드</a></td>
     </tr>
   </tbody>
 </table>
