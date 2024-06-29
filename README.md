@@ -105,6 +105,15 @@ coding test algorithm
         <td>구현</td>
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1952.py">코드</a></td>
     </tr>
+    <tr>
+        <td>4</td>
+        <td>2024-06-29</td>
+        <td>2178</td>
+        <td><a href="https://www.acmicpc.net/problem/2178">링크</a></td>
+        <td>미로 탐색</td>
+        <td>BFS</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ2178.py">코드</a></td>
+    </tr>
     
   </tbody>
 </table>
