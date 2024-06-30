@@ -44,21 +44,21 @@ coding test algorithm
         <td>17135</td>
         <td><a href="https://www.acmicpc.net/problem/17135">링크</a></td>
         <td>캐슬 디펜스</td>
-        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ17135.py">코드</a></td>
+        <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_17135.py">코드</a></td>
     </tr>
     <tr>
         <td >2024-06-23</td>    
         <td>21314</td>
         <td><a href="https://www.acmicpc.net/problem/21314">링크</a></td>
         <td>민겸 수</td>
-        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ21314.py">코드</a></td>
+        <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_21314.py">코드</a></td>
     </tr>
     <tr>
         <td >2024-06-23</td>    
         <td>16928</td>
         <td><a href="https://www.acmicpc.net/problem/16928">링크</a></td>
         <td>봄버맨</td>
-        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ16928.py">코드</a></td>
+        <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_16928.py">코드</a></td>
     </tr>
   </tbody>
 </table>

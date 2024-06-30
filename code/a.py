@@ -1,52 +1,48 @@
 import sys
 
+input = sys.stdin.read
 
-def dfs(node):
-    ans_dfs.append(node)
-    v_dfs[node] = 1
+def print_grid(grid):
+    for row in grid:
+        print("".join(row))
 
-    for next in adj[node]:
-        if v_dfs[next] == 0:
-            dfs(next)
+def plant_bombs(grid, R, C):
+    return [['O'] * C for _ in range(R)]
 
+def explode_bombs(grid, R, C):
+    new_grid = [['O'] * C for _ in range(R)]
+    for r in range(R):
+        for c in range(C):
+            if grid[r][c] == 'O':
+                new_grid[r][c] = '.'
+                if r > 0:
+                    new_grid[r - 1][c] = '.'
+                if r < R - 1:
+                    new_grid[r + 1][c] = '.'
+                if c > 0:
+                    new_grid[r][c - 1] = '.'
+                if c < C - 1:
+                    new_grid[r][c + 1] = '.'
+    return new_grid
 
-def bfs(start):
-    q = []
-    q.append(start)
-    ans_bfs.append(start)
-    v_bfs[start] = 1
+def solve_bomberman(R, C, N, initial_grid):
+    if N == 1:
+        return initial_grid
 
-    while q:
-        current = q.pop(0)
-        for next in adj[current]:
-            if v_bfs[next] == 0:
-                q.append(next)
-                ans_bfs.append(next)
-                v_bfs[next] = 1
-    return
+    if N % 2 == 0:
+        return plant_bombs(initial_grid, R, C)
 
+    grid_after_3_sec = explode_bombs(initial_grid, R, C)
+    grid_after_5_sec = explode_bombs(grid_after_3_sec, R, C)
 
-N, M, V = map(int, sys.stdin.readline().strip().split())
+    if N % 4 == 1:
+        return grid_after_5_sec
+    else:
+        return grid_after_3_sec
 
-adj = [[] for _ in range(N+1)]
+data = input().strip().split()
+R, C, N = int(data[0]), int(data[1]), int(data[2])
+initial_grid = [list(data[i + 3]) for i in range(R)]
 
-for _ in range(M):
-    start, end = map(int, sys.stdin.readline().strip().split())
-    adj[start].append(end)
-    adj[end].append(start)
-
-for i in range(N+1):
-    adj[i].sort()
-
-
-v_dfs = [0] * (N+1)
-v_bfs = [0] * (N+1)
-
-ans_dfs = []
-ans_bfs = []
-
-bfs(V)
-dfs(V)
-
-print(ans_dfs)
-print(ans_bfs)
+result_grid = solve_bomberman(R, C, N, initial_grid)
+print_grid(result_grid)
