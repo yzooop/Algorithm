@@ -60,9 +60,30 @@ coding test algorithm
         <td>봄버맨</td>
         <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_16928.py">코드</a></td>
     </tr>
+    <tr>
+        <td rowspan="3">3</td>
+        <td >2024-07-03</td>
+        <td>2667</td>
+        <td><a href="https://www.acmicpc.net/problem/2667">링크</a></td>
+        <td>단지번호붙이기</td>
+        <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_2667.py">코드</a></td>
+    </tr>
+    <tr>
+        <td >2024-07-</td>    
+        <td>16937</td>
+        <td><a href="https://www.acmicpc.net/problem/16937">링크</a></td>
+        <td>두 스티커</td>
+        <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_16937.py">코드</a></td>
+    </tr>
+    <tr>
+        <td >2024-07-</td>    
+        <td>13023</td>
+        <td><a href="https://www.acmicpc.net/problem/13023">링크</a></td>
+        <td>ABCDE</td>
+        <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_13023.py">코드</a></td>
+    </tr>
   </tbody>
 </table>
-
 
 ### 따로 공부
 <table>
