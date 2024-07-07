@@ -135,6 +135,23 @@ coding test algorithm
         <td>BFS</td>
         <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ2178.py">코드</a></td>
     </tr>
-    
+    <tr>
+        <td>5</td>
+        <td>2024-07-03</td>
+        <td>1926</td>
+        <td><a href="https://www.acmicpc.net/problem/1926">링크</a></td>
+        <td>그림</td>
+        <td>BFS</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ1926.py">코드</a></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>2024-07-07</td>
+        <td>2747</td>
+        <td><a href="https://www.acmicpc.net/problem/2747">링크</a></td>
+        <td>피보나치</td>
+        <td>DP</td>
+        <td><a href="https://github.com/yzooop/Algorithm/blob/main/code/BOJ2747.py">코드</a></td>
+    </tr>
   </tbody>
 </table>
