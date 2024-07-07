@@ -69,14 +69,14 @@ coding test algorithm
         <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_2667.py">코드</a></td>
     </tr>
     <tr>
-        <td >2024-07-</td>    
+        <td >2024-07-07</td>    
         <td>16937</td>
         <td><a href="https://www.acmicpc.net/problem/16937">링크</a></td>
         <td>두 스티커</td>
         <td><a href="https://github.com/kangyuseok/kakao_algorithm_study/blob/main/veronica/BOJ_16937.py">코드</a></td>
     </tr>
     <tr>
-        <td >2024-07-</td>    
+        <td >2024-07-07</td>    
         <td>13023</td>
         <td><a href="https://www.acmicpc.net/problem/13023">링크</a></td>
         <td>ABCDE</td>
