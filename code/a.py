@@ -1,48 +1,33 @@
 import sys
 
-input = sys.stdin.read
+def bfs(sy, sx):
+    q = []
+    q.append((sy, sx))
+    v[sy][sx] = 1
+    cnt = 1
 
-def print_grid(grid):
-    for row in grid:
-        print("".join(row))
+    while q:
+        cy, cx = q.pop(0)
 
-def plant_bombs(grid, R, C):
-    return [['O'] * C for _ in range(R)]
+        for dy, dx in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            ny, nx = cy + dy, cx + dx
 
-def explode_bombs(grid, R, C):
-    new_grid = [['O'] * C for _ in range(R)]
-    for r in range(R):
-        for c in range(C):
-            if grid[r][c] == 'O':
-                new_grid[r][c] = '.'
-                if r > 0:
-                    new_grid[r - 1][c] = '.'
-                if r < R - 1:
-                    new_grid[r + 1][c] = '.'
-                if c > 0:
-                    new_grid[r][c - 1] = '.'
-                if c < C - 1:
-                    new_grid[r][c + 1] = '.'
-    return new_grid
+            if 0<=ny<N and 0<=nx<N and arr[ny][nx] == 1 and v[ny][nx] == 0:
+                q.append((ny, nx))
+                v[ny][nx] = 1
+                cnt += 1
+    return cnt
 
-def solve_bomberman(R, C, N, initial_grid):
-    if N == 1:
-        return initial_grid
+N = int(sys.stdin.readline().strip())
 
-    if N % 2 == 0:
-        return plant_bombs(initial_grid, R, C)
+arr = [list(map(int, sys.stdin.readline().strip())) for _ in range(N)]
+v = [[0] * N for _ in range(N)]
+ans = []
 
-    grid_after_3_sec = explode_bombs(initial_grid, R, C)
-    grid_after_5_sec = explode_bombs(grid_after_3_sec, R, C)
+for i in range(N):
+    for j in range(N):
+        if arr[i][j] == 1 and v[i][j] == 0:
+            ans.append(bfs(i, j))
 
-    if N % 4 == 1:
-        return grid_after_5_sec
-    else:
-        return grid_after_3_sec
-
-data = input().strip().split()
-R, C, N = int(data[0]), int(data[1]), int(data[2])
-initial_grid = [list(data[i + 3]) for i in range(R)]
-
-result_grid = solve_bomberman(R, C, N, initial_grid)
-print_grid(result_grid)
+ans.sort()
+print(len(ans), *ans, sep="\n")
