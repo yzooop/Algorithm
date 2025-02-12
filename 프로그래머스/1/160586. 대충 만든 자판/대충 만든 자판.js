@@ -1,20 +1,24 @@
-function solution(keymap, targets) {
-    let keyDict = {};
-    
-    keymap.forEach((keys, keyIndex) => {
-        [...keys].forEach((char, pressIndex) => {
-            if (keyDict[char] === undefined || keyDict[char] > pressIndex + 1) {
-                keyDict[char] = pressIndex + 1;
-            }
-        });
-    });
+const keymap = ["ABACD", "BCEFD"]
+const targets = ["ABCD","AABB"]
 
-    return targets.map(target => {
-        let pressCount = 0;
-        for (let char of target) {
-            if (keyDict[char] === undefined) return -1;
-            pressCount += keyDict[char];
+function solution(keymap, targets) {
+    let keyDict = new Map()
+
+    keymap.forEach((keys, keyIndex) => {
+        [...keys].forEach((alp, alpIndex) => {
+            if (keyDict.get(alp) === undefined || keyDict.get(alp) > alpIndex) {
+                keyDict.set(alp, alpIndex + 1)
+            }
+        })
+    })
+    
+    return targets.map((target) => {
+        let answer = 0
+        
+        for (let t of target) {
+            if (keyDict.get(t) === undefined) return -1
+            answer += keyDict.get(t)
         }
-        return pressCount;
-    });
+        return answer
+    })
 }
