@@ -1,2 +1,2 @@
 # Algorithm
-algorithm coding test practice!
+algorithm coding test practice.
